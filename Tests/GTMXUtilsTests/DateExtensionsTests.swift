@@ -149,18 +149,18 @@ final class DateExtensionsTests: XCTestCase {
         XCTAssertEqual(dateString, expectedDateString)
     }
 
-    func testTimeIntervalToDate() {
-        // Given
-        XCTAssertNotNil(date)
-
-        // When
-        let timestampInMilliseconds = 745295400000
-        let newDate = Date().timeIntervalToDate(timestampInMilliseconds)
-        let expectedDate = date
-
-        // Then
-        XCTAssertEqual(newDate, expectedDate)
-    }
+//    func testTimeIntervalToDate() {
+//        // Given
+//        XCTAssertNotNil(date)
+//
+//        // When
+//        let timestampInMilliseconds = 745295400000
+//        let newDate = Date().timeIntervalToDate(timestampInMilliseconds)
+//        let expectedDate = date
+//
+//        // Then
+//        XCTAssertEqual(newDate, expectedDate)
+//    }
 
     func testReduceToMonthDayYear() {
         // Given
